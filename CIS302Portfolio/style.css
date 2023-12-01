@@ -1,0 +1,49 @@
+body {
+    background-color: green;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+th {
+    margin: 10px;
+}
+
+table, th, td {
+
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+ul * {
+	text-align: left;
+}
+
+table {
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: lightgreen;
+
+}
+
+img {
+    margin: 10px;
+    padding: 10px;
+    border: black solid 1px;
+    border: blue solid 3px;
+    width: 200px;  /* Set a fixed width */
+    height: auto;  /* Allow the height to adjust to maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    display: block; /* Center the image horizontally within its container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption, h1 {
+    color: white;
+}
